@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Containers Example</title>
+    <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    body {
+      flex-direction: column;
+    }
+
+    .container {
+      width: 200px;
+      height: 200px;
+      margin: 10px auto;
+      padding: 10px;
+    }
+
+    .success {
+      background-color: lightgreen;
+    }
+
+    .warning {
+      background-color: yellow;
+    }
+
+    .error {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+<div class="container success">
+    <h2>Container 1 (Success)</h2>
+    <p>This is the content of container 1.</p>
+</div>
+
+<div class="container warning">
+    <h2>Container 2 (Warning)</h2>
+    <p>This is the content of container 2.</p>
+</div>
+
+<div class="container error">
+    <h2>Container 3 (Error)</h2>
+    <p>This is the content of container 3.</p>
+</div>
+</body>
+</html>
